@@ -19,15 +19,15 @@ export default function About() {
           </p>
 
           <p className="text-gray-300 leading-relaxed">
-            [Add a paragraph about your interests and hobbies outside of work.]
+            Outside of work, I&apos;m passionate about Rubik&apos;s cubes and competitive speedcubing—I even serve as President of WPI&apos;s Rubik&apos;s Cube Club. I also love managing livestream production for esports events, combining my technical skills with my love for gaming and live entertainment.
           </p>
 
           <p className="text-gray-300 leading-relaxed">
-            [Add a paragraph about what you enjoy doing in your free time.]
+            In my free time, I enjoy building personal tech projects. One of my favorites is Ripcord, an open-source Discord bot I created for Minecraft server management. There&apos;s something satisfying about solving real problems with code, even if it&apos;s just making it easier to manage a game server with friends.
           </p>
 
           <p className="text-gray-300 leading-relaxed">
-            [Add any other personal details you&apos;d like to share.]
+            When I&apos;m not coding or cubing, you can usually find me playing video games or watching YouTube. I&apos;m always down for a good gaming session or discovering new content creators.
           </p>
         </div>
 

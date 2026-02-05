@@ -2,9 +2,11 @@ import { resumeData } from "@/data/resume";
 import Footer from "@/components/Footer";
 
 const companyUrls: Record<string, string> = {
-  "Expedia Group": "https://www.expediagroup.com",
-  "General Motors": "https://www.gm.com",
-  "CVP": "https://www.cvpcorp.com",
+  "7Factor": "https://7factor.io",
+};
+
+const educationUrls: Record<string, string> = {
+  "Worcester Polytechnic Institute": "https://www.wpi.edu",
 };
 
 export const metadata = {
@@ -98,36 +100,77 @@ export default function Resume() {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-bold text-white border-b-2 border-blue-500 pb-2 mb-4">
+          <h2 className="text-2xl font-bold text-white border-b-2 border-purple-500 pb-2 mb-4">
             Education
           </h2>
-          {resumeData.education.map((edu, index) => (
-            <div key={index}>
-              <h3 className="text-lg font-semibold text-white">
-                {edu.institution} | {edu.location}
-              </h3>
-              <p className="text-gray-300">
-                {edu.degree}
-              </p>
-              <p className="text-sm text-gray-400">
-                {edu.details}
-              </p>
-            </div>
-          ))}
+          <div className="space-y-4">
+            {resumeData.education.map((edu, index) => (
+              <div key={index} className="bg-neutral-800/50 rounded-lg p-6 border border-neutral-700">
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start">
+                  <div>
+                    <h3 className="text-lg font-semibold text-white">
+                      {edu.degree}
+                    </h3>
+                    <p className="text-sm text-gray-400 mt-1">
+                      {educationUrls[edu.institution] ? (
+                        <a href={educationUrls[edu.institution]} target="_blank" rel="noopener noreferrer" className="text-purple-400 font-semibold hover:underline">
+                          {edu.institution}
+                        </a>
+                      ) : (
+                        <span className="text-purple-400 font-semibold">{edu.institution}</span>
+                      )} · {edu.location}
+                    </p>
+                  </div>
+                  <p className="text-sm text-gray-500 mt-1 sm:mt-0">
+                    {edu.graduationDate}
+                  </p>
+                </div>
+                <p className="mt-3 text-gray-300 text-sm">{edu.details}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-2xl font-bold text-white border-b-2 border-green-500 pb-2 mb-4">
+            Projects
+          </h2>
+          <div className="space-y-4">
+            {resumeData.projects?.map((project, index) => (
+              <div key={index} className="bg-neutral-800/50 rounded-lg p-6 border border-neutral-700">
+                <h3 className="text-lg font-semibold text-white">
+                  {project.name}
+                </h3>
+                <p className="mt-3 text-gray-300 text-sm">{project.description}</p>
+              </div>
+            ))}
+          </div>
         </section>
 
         <section>
-          <h2 className="text-2xl font-bold text-white border-b-2 border-blue-500 pb-2 mb-4">
-            Certifications
+          <h2 className="text-2xl font-bold text-white border-b-2 border-orange-500 pb-2 mb-4">
+            Activities
           </h2>
-          <ul className="space-y-2">
-            {resumeData.certifications.map((cert, index) => (
-              <li key={index} className="text-gray-300 flex items-start">
-                <span className="text-blue-400 mr-2">•</span>
-                {cert}
-              </li>
+          <div className="space-y-4">
+            {resumeData.activities?.map((activity, index) => (
+              <div key={index} className="bg-neutral-800/50 rounded-lg p-6 border border-neutral-700">
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start">
+                  <div>
+                    <h3 className="text-lg font-semibold text-white">
+                      {activity.role}
+                    </h3>
+                    <p className="text-sm text-gray-400 mt-1">
+                      <span className="text-orange-400 font-semibold">{activity.organization}</span>
+                    </p>
+                  </div>
+                  <p className="text-sm text-gray-500 mt-1 sm:mt-0">
+                    {activity.startDate} – {activity.endDate}
+                  </p>
+                </div>
+                <p className="mt-3 text-gray-300 text-sm">{activity.description}</p>
+              </div>
             ))}
-          </ul>
+          </div>
         </section>
       </div>
       <Footer />
