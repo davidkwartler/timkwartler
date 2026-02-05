@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Footer from "@/components/Footer";
 
 export const metadata = {
@@ -34,69 +35,74 @@ export default function About() {
         <div className="mt-16 space-y-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <figure className="space-y-2 mx-auto sm:mx-0 w-3/4 sm:w-full">
-              <div className="w-full aspect-[3/2] bg-neutral-700 rounded-lg flex items-center justify-center">
-                <span className="text-gray-400 text-sm">Photo placeholder</span>
+              <div className="w-full aspect-[3/2] relative rounded-lg overflow-hidden">
+                <Image
+                  src="/TorontoBarPic.jpg"
+                  alt="Tim at a bar in Toronto with a Rubik's cube"
+                  fill
+                  className="object-cover"
+                />
               </div>
               <figcaption className="text-sm text-gray-400 italic text-center">
-                [Caption for photo 1]
+                Cubing in Toronto
               </figcaption>
             </figure>
 
             <figure className="space-y-2 mx-auto sm:mx-0 w-3/4 sm:w-full">
-              <div className="w-full aspect-[3/2] bg-neutral-700 rounded-lg flex items-center justify-center">
-                <span className="text-gray-400 text-sm">Photo placeholder</span>
+              <div className="w-full aspect-[3/2] relative rounded-lg overflow-hidden">
+                <Image
+                  src="/StrayCats.jpg"
+                  alt="Tim with family at a Stray Cats concert in NYC"
+                  fill
+                  className="object-cover"
+                />
               </div>
               <figcaption className="text-sm text-gray-400 italic text-center">
-                [Caption for photo 2]
+                Stray Cats concert in NYC
               </figcaption>
             </figure>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <figure className="space-y-2 mx-auto sm:mx-0 w-3/4 sm:w-full">
-              <div className="w-full aspect-[2/3] bg-neutral-700 rounded-lg flex items-center justify-center">
-                <span className="text-gray-400 text-sm">Photo placeholder</span>
+              <div className="w-full aspect-[3/4] relative rounded-lg overflow-hidden">
+                <Image
+                  src="/timk.jpeg"
+                  alt="Tim in NYC"
+                  fill
+                  className="object-cover"
+                />
               </div>
               <figcaption className="text-sm text-gray-400 italic text-center">
-                [Caption for photo 3]
+                NYC skyline
               </figcaption>
             </figure>
 
             <figure className="space-y-2 mx-auto sm:mx-0 w-3/4 sm:w-full">
-              <div className="w-full aspect-[2/3] bg-neutral-700 rounded-lg flex items-center justify-center">
-                <span className="text-gray-400 text-sm">Photo placeholder</span>
+              <div className="w-full aspect-[3/4] relative rounded-lg overflow-hidden">
+                <Image
+                  src="/Prom1.png"
+                  alt="Tim with friends at prom"
+                  fill
+                  className="object-cover"
+                />
               </div>
               <figcaption className="text-sm text-gray-400 italic text-center">
-                [Caption for photo 4]
+                Prom with friends
               </figcaption>
             </figure>
 
             <figure className="space-y-2 mx-auto sm:mx-0 w-3/4 sm:w-full">
-              <div className="w-full aspect-[2/3] bg-neutral-700 rounded-lg flex items-center justify-center">
-                <span className="text-gray-400 text-sm">Photo placeholder</span>
+              <div className="w-full aspect-[3/4] relative rounded-lg overflow-hidden">
+                <Image
+                  src="/PXL_20250603_230529150.jpg"
+                  alt="Tim with a friend at an event"
+                  fill
+                  className="object-cover"
+                />
               </div>
               <figcaption className="text-sm text-gray-400 italic text-center">
-                [Caption for photo 5]
-              </figcaption>
-            </figure>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <figure className="space-y-2 mx-auto sm:mx-0 w-3/4 sm:w-full">
-              <div className="w-full aspect-[3/2] bg-neutral-700 rounded-lg flex items-center justify-center">
-                <span className="text-gray-400 text-sm">Photo placeholder</span>
-              </div>
-              <figcaption className="text-sm text-gray-400 italic text-center">
-                [Caption for photo 6]
-              </figcaption>
-            </figure>
-
-            <figure className="space-y-2 mx-auto sm:mx-0 w-3/4 sm:w-full">
-              <div className="w-full aspect-[3/2] bg-neutral-700 rounded-lg flex items-center justify-center">
-                <span className="text-gray-400 text-sm">Photo placeholder</span>
-              </div>
-              <figcaption className="text-sm text-gray-400 italic text-center">
-                [Caption for photo 7]
+                Hanging with friends
               </figcaption>
             </figure>
           </div>
