@@ -22,10 +22,29 @@ export default function WhatIDo() {
           My Work
         </h1>
         <p className="text-xl text-gray-400 mb-12">
-          Projects I&apos;ve built and things I&apos;m proud of
+          What I do and what I&apos;ve built
         </p>
 
         <section className="mb-16">
+          <h2 className="text-2xl font-bold text-white mb-6">
+            Background
+          </h2>
+          <div className="prose prose-invert max-w-none">
+            {resumeData.careerBackground.split("\n\n").map((paragraph, index) => (
+              <p
+                key={index}
+                className="text-gray-300 leading-relaxed mb-4"
+              >
+                {paragraph}
+              </p>
+            ))}
+          </div>
+        </section>
+
+        <section className="mb-16">
+          <h2 className="text-2xl font-bold text-white mb-6">
+            Projects
+          </h2>
           <div className="grid gap-8 md:grid-cols-2">
             {resumeData.projects?.map((project, index) => {
               const colors = projectColors[index % projectColors.length];
@@ -49,22 +68,6 @@ export default function WhatIDo() {
                 </div>
               );
             })}
-          </div>
-        </section>
-
-        <section className="mb-16">
-          <h2 className="text-2xl font-bold text-white mb-6">
-            Background
-          </h2>
-          <div className="prose prose-invert max-w-none">
-            {resumeData.careerBackground.split("\n\n").map((paragraph, index) => (
-              <p
-                key={index}
-                className="text-gray-300 leading-relaxed mb-4"
-              >
-                {paragraph}
-              </p>
-            ))}
           </div>
         </section>
 
