@@ -14,8 +14,8 @@ export default function Home() {
           <div className="relative text-center">
             <div className="mb-8 flex justify-center">
               <Image
-                src="/dk-headshot.jpg"
-                alt="David Kwartler"
+                src="/timk.jpeg"
+                alt="Tim Kwartler"
                 width={200}
                 height={200}
                 className="rounded-full"

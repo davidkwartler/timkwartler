@@ -8,8 +8,8 @@ const companyUrls: Record<string, string> = {
 };
 
 export const metadata = {
-  title: "Resume - David Kwartler",
-  description: "Professional resume of David Kwartler",
+  title: "Resume - Tim Kwartler",
+  description: "Professional resume of Tim Kwartler",
 };
 
 export default function Resume() {

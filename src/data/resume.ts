@@ -1,99 +1,119 @@
 export const resumeData = {
-  name: "David Kwartler",
-  title: "Senior Product Manager",
-  subtitle: "AI Authentication, Authorization, Trust & Privacy",
-  location: "Austin, TX",
+  name: "Tim Kwartler",
+  title: "Software Engineer",
+  subtitle: "Full-Stack Development & Cloud Infrastructure",
+  location: "Worcester, MA",
 
   summary: [
-    "Accomplished product manager with over six years of experience leading cross-functional teams to build impactful software products that drive measurable outcomes at enterprise scale.",
-    "Identity and Access Management expert responsible for Expedia Group's robust in-house customer identity platform, powering secure traveler and partner experiences across our global two-sided marketplace.",
-    "Led IAM product at General Motors, delivering seamless authentication and profile experiences across web, mobile, and connected vehicle platforms for millions of customers.",
-    "Analytical problem-solver and clear communicator with a proven ability to blend technical expertise and strategic thinking to drive business impact in fast-paced, dynamic environments.",
+    "Computer science B.S. / M.S. student at WPI with skills in full-stack software development, leadership experience in large student organizations, and a passion for building impactful, collaborative software solutions.",
   ],
 
-  careerBackground: `I'm a Senior Product Manager focused on building secure, scalable authentication and authorization solutions. My work sits at the intersection of enterprise partnerships and AI, where I work to design the frameworks that allow our platform to safely partner and scale with the next frontier of interaction models.
+  careerBackground: `I'm a Computer Science student at Worcester Polytechnic Institute pursuing both my Bachelor's and Master's degrees. My focus is on full-stack software development, and I have a passion for building impactful, collaborative software solutions.
 
-Over my career, I've worked to make login seamless, strengthen account protection, and deliver personalized identity and profile experiences for hundreds of millions of global users.
+I've gained hands-on experience through my internship at 7Factor, where I developed a webhooks-as-a-service platform and built data transformations to support multiple request/response formats.
 
-At Expedia Group, I help define how identity, authorization, and privacy work across our travel ecosystem, with a focus on AI-powered experiences and our MCP-based product integrations. My work centers on designing clear consent and access models that enable AI systems to act on behalf of users safely and transparently.
+Outside of traditional software engineering, I manage end-to-end livestream production for high-profile esports events, leading a team of five to deliver events like Red Bull Campus Clutch Northeast Regionals and the 2025 World Cube Association USA Nationals.
 
-I enjoy solving the ambiguous challenges found in rapidly evolving spaces like AI authorization; operating at the intersection of identity, security, and user experience to build trust frameworks that serve as durable growth engines for our business.`,
+I enjoy working on personal projects that solve real problems, from Minecraft server management tools to Rubik's Cube solve tracking apps. I'm always looking for opportunities to learn new technologies and contribute to meaningful projects.`,
 
   skills: [
-    "Product Strategy",
-    "Continuous Discovery",
-    "User Research",
-    "A/B Testing",
-    "Data Analysis",
-    "Collaboration",
-    "Communication",
-    "Stakeholder Alignment & Influence",
-    "Leadership & Mentoring",
-    "API Design & Documentation",
-    "Identity & Access Management",
-    "UI/UX Design",
-    "Product Development Lifecycle",
-    "Acceptance Testing",
+    "JavaScript",
+    "Python",
+    "Java",
+    "C++",
+    "SQL",
+    "React",
+    "Next.js",
+    "Node.js",
+    "Tailwind CSS",
+    "AWS",
+    "Git",
+    "MongoDB",
+    "REST APIs",
+    "Database Systems",
+    "Agile",
   ],
 
   experience: [
     {
-      company: "Expedia Group",
-      position: "Senior Product Manager",
-      location: "Austin, TX",
-      startDate: "08/2024",
+      company: "7Factor",
+      position: "Software Engineering Intern",
+      location: "Worcester, MA",
+      startDate: "09/2025",
       endDate: "Present",
       description:
-        "Global travel technology company operating an AI-enabled marketplace for travelers and partners",
+        "Software consultancy delivering custom development solutions",
       highlights: [
-        "Defined and led a multi-team initiative spanning eight development squads to achieve identity platform multi-tenancy, ensuring user data isolation and unlocking $15M in potential value through personalized user experiences for Expedia's fast-growing demand partner marketplace.",
-        "Achieved 1% conversion uplift by leading cross-functional alignment across loyalty, fraud, cybersecurity, and privacy teams to A/B test extended session length strategy, balancing user experience with account security.",
-        "Championed system rearchitecture to eliminate external vendor dependency for authentication, delivering $3M in annual EBITDA savings and improving control of our tech stack.",
-        "Launched social login and NAVER Pay integration in South Korea to streamline checkout and capture $4M in incremental value by improving conversion in a key international growth market.",
-        "Enabled digital tax form submission for Vrbo hosts by introducing identity federation with a third-party app through our OIDC API, simplifying compliance workflows for over 600,000 property owners.",
+        "Developed a webhooks-as-a-service platform with an internal UI to manage configuration of webhook event producers and consumers.",
+        "Built data transformations to support multiple request / response formats across consumers of the same webhook producer.",
       ],
     },
     {
-      company: "General Motors",
-      position: "Senior Product Manager",
-      location: "Austin, TX",
-      startDate: "06/2021",
-      endDate: "08/2024",
+      company: "Independent Contractor",
+      position: "Livestream Production Manager",
+      location: "Worcester, MA",
+      startDate: "09/2022",
+      endDate: "Present",
       description:
-        "Leading US automaker advancing electric, autonomous, and connected vehicle technology",
+        "End-to-end livestream production for high-profile esports events",
       highlights: [
-        "Increased loyalty program enrollments by 28%, delivering $16M in monthly customer lifetime value gains through A/B testing to optimize sign-up flow and drive retention.",
-        "Launched revamped mobile app authentication experience informed by an employee pilot program of over 200 participants, resulting in a 19% increase in customer satisfaction and improved user experience.",
-        "Improved multi-factor authentication success rate by 13% by leveraging product analytics to identify and prioritize enhancements, leading to increased app engagement and stronger account security.",
-      ],
-    },
-    {
-      company: "CVP",
-      position: "Product Owner",
-      location: "Washington, DC",
-      startDate: "06/2019",
-      endDate: "06/2021",
-      description:
-        "Technology consulting firm delivering large-scale modernization initiatives for a wide range of clients",
-      highlights: [
-        "Accelerated environmental assessment project efficiency by 65% through revamped email notifications in large-scale regulatory planning platform.",
-        "Secured $2M contract by leading UI design and product vision for a data visualization proof of concept, enabling real-time security officer post tracking to optimize resource allocation.",
+        "Manage end-to-end livestream production and a team of five to deliver high-profile esports events, including Red Bull Campus Clutch Northeast Regionals, Northeast Series Invitational, and 2025 World Cube Association USA Nationals.",
       ],
     },
   ],
 
   education: [
     {
-      institution: "The George Washington University",
-      degree: "Bachelor of Business Administration",
-      location: "Washington, DC",
-      graduationDate: "2015 – 2019",
-      details: "Major in Finance, Minor in Environmental Sustainability",
+      institution: "Worcester Polytechnic Institute",
+      degree: "Master's of Science, Computer Science",
+      location: "Worcester, MA",
+      graduationDate: "Expected 05/2026",
+      details: "Overall GPA: 3.76 | Major GPA: 3.95",
+    },
+    {
+      institution: "WPI Venice Project Center",
+      degree: "Study Abroad",
+      location: "Venice, Italy",
+      graduationDate: "05/2024",
+      details: "International project-based learning experience",
     },
   ],
 
-  certifications: [
-    "SAFe Product Owner / Product Manager",
-    "Professional Scrum Master I",
+  certifications: [],
+
+  projects: [
+    {
+      name: "Ripcord",
+      description: "Architected an open-source RCON application for Minecraft server management, enabling full server control without a modified client or server, with features including server start commands, auto-restart, and console synchronization. Launched a Python-based Discord integration to enable server communication and automation.",
+    },
+    {
+      name: "Kermit the Timer",
+      description: "Designed a full-stack Next.js web app for Rubik's Cube solve tracking, featuring OAuth 2.0, persistent storage with MongoDB, scramble generation, and user video capture. Implemented a responsive Tailwind frontend with multiple themes and interactive D3.js visualizations for real-time analytics and solve trends.",
+    },
+    {
+      name: "ScoreKeepWare",
+      description: "Coded a backend application with authentication to track sports events, while learning AWS CDK for cloud infrastructure deployment.",
+    },
+    {
+      name: "Tables4U",
+      description: "Programmed a full-stack restaurant reservation management system with 19 features while learning Git and implementing AWS services including RDS, Lambda, and S3.",
+    },
+  ],
+
+  activities: [
+    {
+      role: "President",
+      organization: "WPI Rubik's Cube Club",
+      startDate: "09/2022",
+      endDate: "Present",
+      description: "Lead a 20+ member organization by hosting weekly meetings and driving membership growth through creative outreach initiatives.",
+    },
+    {
+      role: "Vice President",
+      organization: "WPI Esports Club",
+      startDate: "09/2022",
+      endDate: "Present",
+      description: "Manage an 11-person leadership team to oversee marketing, design, events, and recruiting for one of WPI's largest student organizations.",
+    },
   ],
 };

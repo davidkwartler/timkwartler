@@ -13,7 +13,7 @@ export default function Footer() {
               Resume
             </Link>
             <a
-              href="https://www.linkedin.com/in/dkwartler"
+              href="https://www.linkedin.com/in/tkwartler"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
@@ -21,7 +21,7 @@ export default function Footer() {
               LinkedIn
             </a>
             <a
-              href="mailto:david@davidkwartler.com"
+              href="mailto:tbkwartler@wpi.edu"
               className="text-gray-400 hover:text-white transition-colors"
             >
               Contact
@@ -31,7 +31,7 @@ export default function Footer() {
             Designed and built by me ☕
           </p>
           <p className="text-sm text-gray-500">
-            &copy; {new Date().getFullYear()} David Kwartler. All rights reserved.
+            &copy; {new Date().getFullYear()} Tim Kwartler. All rights reserved.
           </p>
         </div>
       </div>

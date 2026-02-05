@@ -19,8 +19,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "David Kwartler",
-  description: "Personal website of David Kwartler, a Senior Product Manager in Austin, TX focused on identity & access management solutions.",
+  title: "Tim Kwartler",
+  description: "Personal website of Tim Kwartler, a Software Engineer and Computer Science student at WPI.",
   icons: {
     icon: "/favicon.svg",
   },

@@ -1,9 +1,8 @@
-import Image from "next/image";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "About Me - David Kwartler",
-  description: "Learn more about David Kwartler",
+  title: "About Me - Tim Kwartler",
+  description: "Learn more about Tim Kwartler",
 };
 
 export default function About() {
@@ -16,124 +15,88 @@ export default function About() {
 
         <div className="prose prose-invert max-w-none space-y-6">
           <p className="text-gray-300 leading-relaxed">
-            I'm David. I grew up in Boston, went to college in Washington, DC, and now live in Austin, a city that makes it easy to stay active, explore, and enjoy the outdoors year-round.
+            I&apos;m Tim. I grew up in Boston and am currently pursuing my Master&apos;s in Computer Science at Worcester Polytechnic Institute.
           </p>
 
           <p className="text-gray-300 leading-relaxed">
-            Outside of work, I'm drawn to pursuits that reward focus and momentum. I'm a performance car enthusiast and amateur race car driver, currently spending time behind the wheel of a Porsche Cayman. I stay active with long bike rides around the Town Lake trail.
+            [Add a paragraph about your interests and hobbies outside of work.]
           </p>
 
           <p className="text-gray-300 leading-relaxed">
-            Music has always been a constant in my life. I'm especially into EDM and hard rock, and last year I made it to around 80 live shows across several festivals. More recently, that interest has expanded into learning to DJ and building a growing vinyl collection at home.
+            [Add a paragraph about what you enjoy doing in your free time.]
           </p>
 
           <p className="text-gray-300 leading-relaxed">
-            I love to travel and have spent much of the last few years visiting cities across the U.S. and Canada, often planning trips around food, art museums, and good music.
-          </p>
-
-          <p className="text-gray-300 leading-relaxed">
-            I've been vegan for a decade and enjoy cooking, making espresso, and the occasional hunt for a good bottle of bourbon. At home, my cat Rey keeps me grounded. She's my best friend and very much in charge.
-          </p>
-
-          <p className="text-gray-300 leading-relaxed">
-            When things slow down, I'm probably watching Austin FC or the Atlanta Falcons and holding onto hope for a winning season.
+            [Add any other personal details you&apos;d like to share.]
           </p>
         </div>
 
         <div className="mt-16 space-y-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <figure className="space-y-2 mx-auto sm:mx-0 w-3/4 sm:w-full">
-              <Image
-                src="/bike-austin.png"
-                alt="Biking in Austin"
-                width={600}
-                height={400}
-                className="w-full h-auto rounded-lg"
-              />
+              <div className="w-full aspect-[3/2] bg-neutral-700 rounded-lg flex items-center justify-center">
+                <span className="text-gray-400 text-sm">Photo placeholder</span>
+              </div>
               <figcaption className="text-sm text-gray-400 italic text-center">
-                Biking the Town Lake Trail in Austin
+                [Caption for photo 1]
               </figcaption>
             </figure>
 
             <figure className="space-y-2 mx-auto sm:mx-0 w-3/4 sm:w-full">
-              <Image
-                src="/corvette.jpg"
-                alt="Corvette"
-                width={600}
-                height={400}
-                className="w-full h-auto rounded-lg"
-              />
+              <div className="w-full aspect-[3/2] bg-neutral-700 rounded-lg flex items-center justify-center">
+                <span className="text-gray-400 text-sm">Photo placeholder</span>
+              </div>
               <figcaption className="text-sm text-gray-400 italic text-center">
-                Corvette racing at New England Dragway
+                [Caption for photo 2]
               </figcaption>
             </figure>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <figure className="space-y-2 mx-auto sm:mx-0 w-3/4 sm:w-full">
-              <Image
-                src="/david-chicago.JPG"
-                alt="David in Chicago"
-                width={400}
-                height={600}
-                className="w-full h-auto rounded-lg"
-              />
+              <div className="w-full aspect-[2/3] bg-neutral-700 rounded-lg flex items-center justify-center">
+                <span className="text-gray-400 text-sm">Photo placeholder</span>
+              </div>
               <figcaption className="text-sm text-gray-400 italic text-center">
-                Visiting the Bean in Chicago
+                [Caption for photo 3]
               </figcaption>
             </figure>
 
             <figure className="space-y-2 mx-auto sm:mx-0 w-3/4 sm:w-full">
-              <Image
-                src="/david-seattle.JPG"
-                alt="David at the Seattle Space Needle"
-                width={400}
-                height={600}
-                className="w-full h-auto rounded-lg"
-              />
+              <div className="w-full aspect-[2/3] bg-neutral-700 rounded-lg flex items-center justify-center">
+                <span className="text-gray-400 text-sm">Photo placeholder</span>
+              </div>
               <figcaption className="text-sm text-gray-400 italic text-center">
-                View from the Space Needle in Seattle
+                [Caption for photo 4]
               </figcaption>
             </figure>
 
             <figure className="space-y-2 mx-auto sm:mx-0 w-3/4 sm:w-full">
-              <Image
-                src="/david-nyc.JPG"
-                alt="David in New York City"
-                width={400}
-                height={600}
-                className="w-full h-auto rounded-lg"
-              />
+              <div className="w-full aspect-[2/3] bg-neutral-700 rounded-lg flex items-center justify-center">
+                <span className="text-gray-400 text-sm">Photo placeholder</span>
+              </div>
               <figcaption className="text-sm text-gray-400 italic text-center">
-                Manhattan skyline views in New York City
+                [Caption for photo 5]
               </figcaption>
             </figure>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <figure className="space-y-2 mx-auto sm:mx-0 w-3/4 sm:w-full">
-              <Image
-                src="/david-falcons.JPG"
-                alt="David at a Falcons game"
-                width={600}
-                height={400}
-                className="w-full h-auto rounded-lg"
-              />
+              <div className="w-full aspect-[3/2] bg-neutral-700 rounded-lg flex items-center justify-center">
+                <span className="text-gray-400 text-sm">Photo placeholder</span>
+              </div>
               <figcaption className="text-sm text-gray-400 italic text-center">
-                Atlanta Falcons game in Massachusetts
+                [Caption for photo 6]
               </figcaption>
             </figure>
 
             <figure className="space-y-2 mx-auto sm:mx-0 w-3/4 sm:w-full">
-              <Image
-                src="/identiverse.jpg"
-                alt="David at Identiverse"
-                width={600}
-                height={400}
-                className="w-full h-auto rounded-lg"
-              />
+              <div className="w-full aspect-[3/2] bg-neutral-700 rounded-lg flex items-center justify-center">
+                <span className="text-gray-400 text-sm">Photo placeholder</span>
+              </div>
               <figcaption className="text-sm text-gray-400 italic text-center">
-                Identiverse with my team in Las Vegas
+                [Caption for photo 7]
               </figcaption>
             </figure>
           </div>

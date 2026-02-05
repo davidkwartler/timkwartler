@@ -27,14 +27,14 @@ export function Navigation() {
           >
             {!isHomePage && (
               <Image
-                src="/dk-headshot.jpg"
-                alt="David Kwartler"
+                src="/timk.jpeg"
+                alt="Tim Kwartler"
                 width={40}
                 height={40}
                 className="rounded-full"
               />
             )}
-            David Kwartler
+            Tim Kwartler
           </Link>
 
           {/* Desktop navigation */}
@@ -53,7 +53,7 @@ export function Navigation() {
               </Link>
             ))}
             <a
-              href="https://www.linkedin.com/in/dkwartler/"
+              href="https://www.linkedin.com/in/tkwartler/"
               target="_blank"
               rel="noopener noreferrer"
               className="opacity-100 hover:opacity-50 transition-opacity"
@@ -104,7 +104,7 @@ export function Navigation() {
                 </Link>
               ))}
               <a
-                href="https://www.linkedin.com/in/dkwartler/"
+                href="https://www.linkedin.com/in/tkwartler/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm font-medium text-gray-300 hover:text-white py-2"
