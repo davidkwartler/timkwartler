@@ -59,7 +59,13 @@ export default function WhatIDo() {
                       Project
                     </div>
                     <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-blue-400 transition-colors">
-                      {project.name}
+                      {project.url ? (
+                        <a href={project.url} target="_blank" rel="noopener noreferrer" className="hover:underline">
+                          {project.name}
+                        </a>
+                      ) : (
+                        project.name
+                      )}
                     </h3>
                     <p className="text-gray-300 leading-relaxed">
                       {project.description}

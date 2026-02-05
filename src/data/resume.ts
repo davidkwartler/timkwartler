@@ -84,10 +84,12 @@ I enjoy working on personal projects that solve real problems, from Minecraft se
   projects: [
     {
       name: "Ripcord",
+      url: "https://github.com/yoyo17233/Ripcord",
       description: "Architected an open-source RCON application for Minecraft server management, enabling full server control without a modified client or server, with features including server start commands, auto-restart, and console synchronization. Launched a Python-based Discord integration to enable server communication and automation.",
     },
     {
       name: "Kermit the Timer",
+      url: "https://kermit-the-frog-vercel.vercel.app/",
       description: "Designed a full-stack Next.js web app for Rubik's Cube solve tracking, featuring OAuth 2.0, persistent storage with MongoDB, scramble generation, and user video capture. Implemented a responsive Tailwind frontend with multiple themes and interactive D3.js visualizations for real-time analytics and solve trends.",
     },
     {
