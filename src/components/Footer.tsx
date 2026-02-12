@@ -21,16 +21,21 @@ export default function Footer() {
               LinkedIn
             </a>
             <a
+              href="https://github.com/yoyo17233"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-white transition-colors"
+            >
+              GitHub
+            </a>
+            <a
               href="mailto:timkwartler@gmail.com"
               className="text-gray-400 hover:text-white transition-colors"
             >
               Contact
             </a>
           </div>
-          <p className="text-sm text-gray-500">
-            Designed and built by me ☕
-          </p>
-          <p className="text-sm text-gray-500">
+<p className="text-sm text-gray-500">
             &copy; {new Date().getFullYear()} Tim Kwartler. All rights reserved.
           </p>
         </div>

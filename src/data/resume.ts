@@ -68,7 +68,14 @@ I enjoy working on personal projects that solve real problems, from Minecraft se
       degree: "Master's of Science, Computer Science",
       location: "Worcester, MA",
       graduationDate: "Expected 05/2026",
-      details: "Overall GPA: 3.76 | Major GPA: 3.95",
+      details: "GPA: 4.0",
+    },
+    {
+      institution: "Worcester Polytechnic Institute",
+      degree: "Bachelor's of Science, Computer Science",
+      location: "Worcester, MA",
+      graduationDate: "05/2025",
+      details: "GPA: 3.77",
     },
     {
       institution: "WPI Venice Project Center",
