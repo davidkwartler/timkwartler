@@ -62,7 +62,7 @@ export default function About() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
 <figure className="space-y-2 mx-auto sm:mx-0 w-3/4 sm:w-full">
-              <div className="w-full aspect-[3/4] relative rounded-lg overflow-hidden">
+              <div className="w-full aspect-[3/2] relative rounded-lg overflow-hidden">
                 <Image
                   src="/Prom1.png"
                   alt="Tim with friends at prom"
@@ -76,7 +76,7 @@ export default function About() {
             </figure>
 
             <figure className="space-y-2 mx-auto sm:mx-0 w-3/4 sm:w-full">
-              <div className="w-full aspect-[3/4] relative rounded-lg overflow-hidden">
+              <div className="w-full aspect-[3/2] relative rounded-lg overflow-hidden">
                 <Image
                   src="/PXL_20250603_230529150.jpg"
                   alt="Jon Bellion concert in Brooklyn, NYC"
