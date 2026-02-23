@@ -2,7 +2,7 @@ export const resumeData = {
   name: "Tim Kwartler",
   title: "Software Engineer",
   subtitle: "Full-Stack Development & Cloud Infrastructure",
-  location: "Worcester, MA",
+  location: "Boston, MA",
 
   summary: [
     "Computer science B.S. / M.S. student at WPI with skills in full-stack software development, leadership experience in large student organizations, and a passion for building impactful, collaborative software solutions.",
@@ -44,8 +44,10 @@ I enjoy working on personal projects that solve real problems, from Minecraft se
       description:
         "Software consultancy delivering custom development solutions",
       highlights: [
-        "Developed a webhooks-as-a-service platform with an internal UI to manage configuration of webhook event producers and consumers.",
-        "Built data transformations to support multiple request / response formats across consumers of the same webhook producer.",
+        "Performed a full-scale rewrite of a legacy internal alerting platform, transitioning it to a robust webhooks-as-a-service model for high-profile client systems with 99.99% uptime.",
+        "Built a centralized management UI and custom data transformation engine, enabling support for dynamic request/response formats and seamless event delivery across GitHub, AWS, Discord, and Slack.",
+        "Hardened system security by implementing a hashed API key authentication layer, resolving 5 vulnerabilities, and improving database security settings.",
+        "Developed complex business logic using optimized recursive functions to handle nested arrays and objects.",
       ],
     },
     {
@@ -75,7 +77,7 @@ I enjoy working on personal projects that solve real problems, from Minecraft se
       degree: "Bachelor's of Science, Computer Science",
       location: "Worcester, MA",
       graduationDate: "05/2025",
-      details: "GPA: 3.77",
+      details: "GPA: 3.78",
     },
     {
       institution: "WPI Venice Project Center",
