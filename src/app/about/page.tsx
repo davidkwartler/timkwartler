@@ -61,7 +61,7 @@ export default function About() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-<figure className="space-y-2 mx-auto sm:mx-0 w-3/4 sm:w-full">
+            <figure className="space-y-2 mx-auto sm:mx-0 w-3/4 sm:w-full">
               <div className="w-full aspect-[3/2] relative rounded-lg overflow-hidden">
                 <Image
                   src="/Prom1.png"
